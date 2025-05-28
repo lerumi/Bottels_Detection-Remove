@@ -1,0 +1,53 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Local configuration
+local.properties
+.idea/
+*.iml
+
+# Signing and security
+*.jks
+*.keystore
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Android Studio generated files
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+*.log
+
+# Testing
+test-results/
+test-output/
+
+# Kotlin
+*.kts~
+
+# Jetpack Compose preview cache
+*.cache/
+
+# NDK
+obj/
+
+# Others
+*.swp
+*.swo
+
+# VS Code (if used)
+.vscode/
+
+# MediaPipe or models
+*.tflite
+*.pb
+
+# Ignore generated files for camera or ML
+mlkit-temp/
